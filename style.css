@@ -1,0 +1,57 @@
+.wr{
+    margin-top: 200px;
+    margin-left: 470px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    width: 400px;
+}
+
+.ib{
+    display: flex;
+}
+.wr *{
+    margin-top: 10px;
+    font-family: "Oswald";
+}
+.cont ul{
+    display: flex;
+    flex-direction: column-reverse;
+}
+li{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: gray;
+    
+}
+
+#inp{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    border: none;
+    transition: 0.5s;
+    
+}
+#inp:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#btn{
+    width: 70px;
+    border: none;
+    background-color: white;
+    color: gray;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#btn:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+}
